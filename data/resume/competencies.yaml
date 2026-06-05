@@ -1,0 +1,12 @@
+- id: beginner
+  title: Beginner
+  description: I do not have any professional experience in this skill.
+- id: experienced
+  title: Experienced
+  description: I have used this skill professionally in a limited capacity.
+- id: advanced
+  title: Advanced
+  description: 'I have used this skill professionally at least once a week (example: git).'
+- id: expert
+  title: Expert
+  description: 'I have used this skill professionally on a daily basis.'

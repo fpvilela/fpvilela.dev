@@ -1,0 +1,64 @@
+- title: Full-stack Developer
+  company: rosh
+  date-of-employment: 03/2026 - 05/2026
+  roles:
+    - full-stack-developer
+    - frontend-developer
+    - systems-analyst
+    - deployment-specialist
+    - wordpress-developer
+  projects:
+    - connecta-moveis-website
+    - traje-fino-website
+    - track-day-wordpress
+
+- title: n8n Developer
+  company: woont
+  date-of-employment: 12/2025 - 02/2026
+  roles:
+    - workflow-automation-developer
+    - ai-automation-developer
+    - chatbot-developer
+    - api-integration-specialist
+  projects:
+    - legal-automation
+    - real-estate-multi-agent
+
+- title: Personal Projects & Technical Learning
+  company: personal-projects
+  date-of-employment: 10/2024 - Present
+  roles:
+    - full-stack-developer
+    - frontend-developer
+    - workflow-automation-developer
+    - api-integration-specialist
+  projects:
+    - communit-hub
+    - google-alerts-whatsapp-content-automation
+    - youtube-channel
+
+- title: Back-end Developer
+  company: vistocerto
+  date-of-employment: 12/2023 - 11/2025
+  roles:
+    - backend-developer
+    - workflow-automation-developer
+    - api-integration-specialist
+    - document-automation-developer
+    - crm-administrator
+    - sales-operations-specialist
+    - crm-trainer
+    - technical-documentation-specialist
+  projects:
+    - onedrive-pdf-data-extractor
+    - sales-information-management-system
+    - lead-to-deal-automation
+    - pipedrive-crm-learnig-documentation
+
+- title: Front-end Developer
+  company: vzion
+  date-of-employment: 01/2023 - 06/2023
+  roles:
+    - frontend-developer
+  projects:
+    - vilela-properties

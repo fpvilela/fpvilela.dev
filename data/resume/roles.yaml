@@ -1,0 +1,119 @@
+- id: ai-automation-developer
+  title: AI Automation Developer
+  description:
+    - 'Design AI-assisted automations that transform operational events into contextual actions and humanized communications.'
+    - 'Connect language models, workflow engines, and business systems to support classification, response generation, and process execution.'
+    - 'Structure prompts, memory, and decision logic for assistants, chatbots, and automated messaging flows.'
+    - 'Translate business routines into reliable automations that reduce manual follow-up and improve service consistency.'
+
+- id: api-integration-specialist
+  title: API Integration Specialist
+  description:
+    - 'Integrate third-party APIs and internal systems to enable secure and dependable data exchange across products and workflows.'
+    - 'Implement authentication, requests, pagination, and data mapping for services such as Microsoft Graph, CRM platforms, WhatsApp gateways, and hosting environments.'
+    - 'Diagnose integration issues, adapt systems to external platform constraints, and maintain stable communication between connected services.'
+    - 'Build backend and automation flows that turn fragmented tools into cohesive operational systems.'
+
+- id: backend-developer
+  title: Back-end Developer
+  description:
+    - 'Develop backend solutions that process business data, enforce application rules, and support operational workflows.'
+    - 'Implement server-side logic, file handling, and automation routines for systems involving documents, APIs, and structured data extraction.'
+    - 'Organize integrations, validation rules, and processing pipelines to reduce manual work and improve reliability.'
+    - 'Maintain code that supports internal operations with clear structure, practical maintainability, and production-focused behavior.'
+
+- roleid: chatbot-developer
+  title: Chatbot Developer
+  description:
+    - 'Build conversational systems that assist users through messaging platforms with context-aware and goal-oriented interactions.'
+    - 'Design chatbot flows that combine business rules, memory, and AI-generated responses for support, reminders, and operational commands.'
+    - 'Integrate chat experiences with WhatsApp, workflow automations, and backend data sources to keep conversations actionable.'
+    - 'Refine conversation behavior to improve clarity, responsiveness, and trust in automated communication.'
+
+- id: deployment-specialist
+  title: Deployment Specialist
+  description:
+    - 'Prepare applications for production by organizing environments, deployment routines, and release procedures.'
+    - 'Handle publishing workflows across shared hosting, remote servers, Docker-based local environments, and Git-driven delivery setups.'
+    - 'Configure infrastructure details such as remote access, application setup, asset delivery, and production updates.'
+    - 'Document deployment processes to support repeatable releases and reduce operational friction.'
+
+- id: document-automation-developer
+  title: Document Automation Developer
+  description:
+    - 'Create automations that read, organize, and extract structured information from business documents at scale.'
+    - 'Develop workflows for locating files, downloading targeted records, parsing PDFs, and transforming unstructured content into usable data.'
+    - 'Apply business rules to classify documents, identify key fields, and connect extracted information to downstream processes.'
+    - 'Reduce manual handling of repetitive document tasks through reliable backend automation.'
+
+- id: frontend-developer
+  title: Front-end Developer
+  description:
+    - 'Build user-facing web interfaces that present information clearly and support responsive interaction across devices.'
+    - 'Implement pages, components, and visual behaviors using modern web technologies for commercial websites and web systems.'
+    - 'Translate business goals into accessible layouts, browsing flows, and presentation logic for catalog, property, and landing page experiences.'
+    - 'Collaborate with stakeholders to improve usability, interface structure, and content presentation.'
+
+- id: full-stack-developer
+  title: Full-stack Developer
+  description:
+    - 'Develop complete web solutions spanning frontend interfaces, backend logic, data handling, and deployment workflows.'
+    - 'Implement features across authentication, CRUD operations, admin panels, media handling, and business process support.'
+    - 'Coordinate technical decisions from requirements analysis through production delivery, keeping the system coherent end to end.'
+    - 'Bridge product needs and implementation details to turn business requirements into working software.'
+
+- id: systems-analyst
+  title: Systems Analyst
+  description:
+    - 'Analyze business requirements and translate them into structured system behavior, workflows, and implementation priorities.'
+    - 'Define use cases, operational flows, and feature scope to guide development of internal tools, websites, and administrative systems.'
+    - 'Organize project information, clarify stakeholder needs, and align technical execution with business objectives.'
+    - 'Support delivery by turning loosely defined requests into practical system specifications.'
+
+- id: technical-documentation-specialist
+  title: Technical Documentation Specialist
+  description:
+    - 'Produce structured documentation that explains systems, tools, workflows, and setup processes with clarity and practical detail.'
+    - 'Write materials that support onboarding, deployment, operational learning, and consistent use of technical platforms.'
+    - 'Organize complex information into accessible guides covering CRM concepts, infrastructure setup, and business procedures.'
+    - 'Maintain documentation as a working asset that improves knowledge transfer and reduces dependency on informal support.'
+
+- id: wordpress-developer
+  title: WordPress Developer
+  description:
+    - 'Develop and adapt WordPress pages to support business communication, campaigns, and landing page experiences.'
+    - 'Translate content strategy, page structure, and visual direction into publishable WordPress implementations.'
+    - 'Refine copy presentation, asset usage, and page composition to improve clarity and commercial impact.'
+    - 'Deliver WordPress solutions that balance content management practicality with tailored presentation.'
+
+- id: workflow-automation-developer
+  title: Workflow Automation Developer
+  description:
+    - 'Design and implement automated workflows that connect systems, trigger business actions, and reduce repetitive manual work.'
+    - 'Build end-to-end automations for legal operations, document processing, notifications, and internal process coordination.'
+    - 'Use tools such as n8n, databases, APIs, and messaging platforms to orchestrate multi-step operational flows.'
+    - 'Improve process reliability by structuring automation logic around real business events, validation rules, and traceable outcomes.'
+
+- id: crm-administrator
+  title: CRM Administrator
+  description:
+    - 'Configure and organize CRM platforms to reflect commercial processes, customer records, forms, and pipeline structures with clarity and consistency.'
+    - 'Adapt CRM environments to operational needs by structuring stages, fields, records, and internal workflows that support day-to-day sales activities.'
+    - 'Maintain data quality, platform organization, and process visibility so teams can manage customer interactions and opportunities more effectively.'
+    - 'Support business operations by turning the CRM into a reliable system for tracking deals, information, and commercial activity.'
+
+- id: sales-operations-specialist
+  title: Sales Operations Specialist
+  description:
+    - 'Support sales operations by maintaining pipelines, updating deal stages, organizing customer records, and keeping commercial information accurate inside the CRM.'
+    - 'Make operational adjustments that improve follow-up, visibility, and process control.'
+    - 'Handle administrative CRM activities such as notes, documents, tasks, calendars, and activity tracking to centralize information for the sales team.'
+    - 'Contribute to smoother commercial workflows by keeping the system current, structured, and aligned with team routines.'
+
+- id: crm-trainer
+  title: CRM Trainer
+  description:
+    - 'Train teams to use CRM platforms effectively in their daily workflow through practical guidance, onboarding support, and structured explanations.'
+    - 'Create learning materials and walkthroughs that explain customer registration, deal management, pipeline usage, activity tracking, and platform organization.'
+    - 'Guide users through real scenarios to improve consistency in platform usage and reduce operational confusion.'
+    - 'Strengthen adoption of CRM processes by combining documentation with direct user support and training sessions.'

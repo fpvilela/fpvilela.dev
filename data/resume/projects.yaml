@@ -1,0 +1,377 @@
+- id: connecta-moveis-website
+  title: Connecta Moveis Website
+  short-title: Connecta Moveis
+  year: 2026
+  summary: 'Developed an end-to-end web system for a corporate furniture catalog, including an administrative panel, product management workflows, and deployment to a production hosting environment.'
+  bullets:
+    - 'Gathered and organized requirements, and created use cases to guide implementation throughout the project lifecycle.'
+    - 'Built the system using PHP, HTML, CSS, and remote MySQL, covering authentication, session management, access control, and CRUD operations for furniture, categories, and images.'
+    - 'Implemented imae upload workflows with automatic WebP conversion and size standardization to support catalog consistency and performance.'
+    - 'Structured the local development environment with Docker and handled deployment to Hostinger through SSH and GitHub.'
+    - 'Produced internal documentation for deployment, website setup, remote MySQL configuration, and external access.'
+    - 'Managed tasks through Kanban boards in Notion and aligned requirements through communication with management and the client.'
+  skills:
+    - php
+    - html
+    - css
+    - mysql
+    - docker
+    - git
+    - github
+    - requirements-analysis
+    - use-case-modeling
+    - authentication
+    - role-based-access-control
+    - deployment
+    - ssh
+    - responsive-web-design
+    - web-design
+    - technical-documentation
+    - auth-security
+    - backend
+    - database
+    - dev-tools
+    - devops-infra
+    - documentation
+    - product
+    - prog-lang
+    - ui-ux
+    - webdev
+
+- id: traje-fino-website
+  title: Traje Fino Website
+  short-title: Traje Fino
+  year: 2026
+  summary: 'Developed a commercial landing page for suit rentals with interactive product recommendation logic and deployment to a production shared hosting environment.'
+  bullets:
+    - 'Built the landing page using HTML, CSS, and JavaScript with a commercial layout focused on presenting suit rental options clearly.'
+    - 'Implemented front-end logic to display matching ties, shoes, and belts based on the style and color of the selected suit.'
+    - 'Managed version control with Git and GitHub throughout the project lifecycle.'
+    - 'Deployed the website to Hostinger shared hosting using SSH key-based access and GitHub.'
+  skills:
+    - html
+    - css
+    - javascript
+    - ui-development
+    - git
+    - github
+    - deployment
+    - ssh
+    - dev-tools
+    - devops-infra
+    - prog-lang
+    - ui-ux
+    - webdev
+
+- id: track-day-wordpress
+  title: Track Day WordPress Landing Page
+  short-title: Track Day Landing Page
+  year: 2026
+  summary: 'Redesigned and rebuilt a WordPress page for a motorcycle riding course, covering content strategy, visual direction, and page implementation.'
+  bullets:
+    - 'Redesigned the Track Day page for a motorcycle riding course website with a new visual concept tailored to the event and its audience.'
+    - 'Rewrote the page copy to improve message clarity, positioning, and commercial presentation.'
+    - 'Selected and organized image assets to support the new communication strategy and page layout.'
+    - 'Implemented the new page in WordPress, translating the proposed structure and design direction into a publishable web experience.'
+  skills:
+    - wordpress
+    - ui-development
+    - web-design
+    - cms
+    - ui-ux
+    - webdev
+
+- id: communit-hub
+  title: Communit Hub Communication Platform
+  short-title: Communit Hub
+  year: 2026
+  summary: 'Contributed to the development of Communit Hub, a centralized communication and operations platform designed to help teams manage WhatsApp, email, and internal workflows from a single panel.'
+  bullets:
+    - 'Implemented core authentication flows with Supabase, including user profile creation, authenticated route protection, and improvements to the login and sign-up experience.'
+    - 'Applied security policies with Row Level Security to support controlled access to operational data across the platform.'
+    - 'Developed key parts of the email module, including IMAP and SMTP account configuration, inbox and sent views, message reading, attachment handling, inline image rendering, and automatic IMAP folder detection.'
+  skills:
+    - javascript
+    - typescript
+    - react
+    - tailwind-css
+    - nodejs
+    - express
+    - supabase
+    - authentication
+    - auth-security
+    - api-integration
+    - backend
+    - database
+    - integrations
+    - ui-development
+    - dev-tools
+    - platform
+    - prog-lang
+    - webdev
+
+- id: real-estate-multi-agent
+  title: Real Estate WhatsApp Multi-Agent Support System
+  short-title: Real Estate Multi-Agent System
+  year: 2026
+  summary: 'Developed a multi-agent WhatsApp support system for a real estate company, routing conversations between specialized AI assistants for commercial, legal, and financial service.'
+  bullets:
+    - 'I designed a multi-agent customer service flow with three specialized assistants, each responsible for a different business area.'
+    - 'Implemented a central routing agent that analyzed incoming conversations and directed each client interaction to the appropriate specialist agent based on context and intent.'
+    - 'Connected the commercial agent to the Superlogica API to keep property information synchronized and available during sales conversations.'
+    - 'Integrated the legal and financial agents with client-provided databases so each assistant could respond with domain-specific information when needed.'
+    - 'Built a coordinated WhatsApp support experience that allowed the agents to collaborate within the same conversation according to the operational needs of the client.'
+  skills:
+    - n8n
+    - artificial-intelligence
+    - openai
+    - whatsapp-api
+    - chatbot-development
+    - workflow-automation
+    - api-integration
+    - webhooks
+    - automation
+    - backend
+    - data-processing
+    - database
+    - integrations
+    - platform
+    - prog-lang
+
+- id: legal-automation
+  title: Legal Automation for Law Firms
+  short-title: Legal Automation
+  year: 2025
+  summary: I developed a legal automation system that transformed case updates into humanized communications with clients, automated reminders and billing notifications, as well as providing chatbot support via WhatsApp.
+  bullets:
+    - Built an ecosystem of n8n workflows integrating Google Sheets, Supabase, OpenAI, and WhatsApp via Z-API to automate communication between a legal office and its clients.
+    - Implemented automated reading and classification of case progress events to trigger context-aware legal messages and operational actions.
+    - Developed AI-assisted message generation to produce humanized legal updates, reminders for expert examinations, and billing notifications.
+    - Created WhatsApp-based administrative commands and a legal chatbot with memory to support ongoing client interaction and internal operations.
+    - Structured persistent data storage in Supabase and PostgreSQL to support workflow state, message history, and operational control.
+  skills:
+    - n8n
+    - workflow-automation
+    - artificial-intelligence
+    - openai
+    - supabase
+    - postgresql
+    - google-sheets
+    - whatsapp-api
+    - javascript
+    - webhooks
+    - chatbot-development
+    - api-integration
+    - ai-ml
+    - automation
+    - backend
+    - data-processing
+    - database
+    - integrations
+    - platform
+    - prog-lang
+
+- id: google-alerts-whatsapp-content-automation
+  title: Google Alerts to WhatsApp Content Automation
+  short-title: Alerts to WhatsApp Automation
+  year: 2025
+  summary: 'Built a semi-automated content monitoring workflow that captures Google Alerts emails, extracts relevant news, categorizes them by topic, stores structured data in Google Sheets, and prepares formatted messages for WhatsApp channels.'
+  bullets:
+    - 'Configured Google Alerts and Gmail labels to centralize monitored news emails based on strategic keywords.'
+    - 'Built a Zapier workflow to detect new Google Alerts emails, extract the monitored keyword, map it to a content theme, and process each detected news item.'
+    - 'Used custom JavaScript inside Zapier to parse unstructured Google Alerts email content and extract structured news titles and URLs.'
+    - 'Inserted categorized news into Google Sheets with fields such as theme, keyword, title, link, date, message text, and WhatsApp channel link.'
+    - 'Developed Google Apps Script logic to enrich and format spreadsheet rows, generate WhatsApp-ready message notes, create clickable links, and improve spreadsheet readability.'
+    - 'Designed the workflow as a semi-automated process to support human review before sharing content, reducing noise and avoiding repeated or irrelevant messages.'
+  skills:
+    - zapier
+    - google-sheets
+    - google-apps-script
+    - javascript
+    - workflow-automation
+    - process-automation
+    - automation
+    - data-processing
+    - integrations
+    - platform
+    - productivity
+    - prog-lang
+
+- id: youtube-channel
+  title: Programming Learning YouTube Channel
+  short-title: YouTube Programming Channel
+  year: 2024
+  summary: Created a YouTube channel to document my programming learning journey through educational videos in English, covering practical CSS and JavaScript concepts while demonstrating technical communication and intermediate English proficiency.
+  bullets:
+    - Produced educational programming videos focused on practical front-end development topics, including CSS layout, styling, selectors, transforms, variables, DOM manipulation, JavaScript functions, events, arrays, objects, and conditional logic.
+    - Documented my learning process by turning study topics into short technical explanations, reinforcing both programming knowledge and the ability to explain concepts clearly.
+    - Recorded the videos in English to practice technical communication and demonstrate intermediate English proficiency in a programming context.
+    - Created complementary learning content by connecting some videos to written articles and GitHub-based study notes.
+    - Used the channel as a public portfolio asset to show consistency in learning, communication skills, and hands-on experience with HTML, CSS, and JavaScript fundamentals.
+  links:
+    - label: YouTube
+      url: https://www.youtube.com/@FilipeVilela-r9z
+  skills:
+    - html
+    - css
+    - javascript
+    - github
+    - dev-tools
+    - documentation
+    - prog-lang
+    - webdev
+
+- id: onedrive-pdf-data-extractor
+  title: Python Automation for Document Data Extraction in OneDrive
+  short-title: OneDrive PDF Extractor
+  year: 2024
+  summary: Project developed in Python to automate the reading of specific files stored in a corporate OneDrive account. 
+  bullets:
+    - Integration with Microsoft Graph API to access corporate files and folders on OneDrive.
+    - Authentication with MSAL to obtain an access token and securely consume the Microsoft API.
+    - Automated navigation through shared company folder structures.
+    - Reading and filtering of client folders based on business rules.
+    - Automatic download of specific PDFs, such as forms and procedural documents.
+    - Extraction of structured data from PDFs using pdfplumber.
+    - Identification of receipt numbers, addresses, and personal information in official documents.
+    - Handling of accented and varied filenames using unicodedata and regex.
+    - Pagination of Microsoft Graph API results with support for @odata.nextLink.
+    - Organization of extracted data in a Client class with multiple associated processes.
+    - Use of environment variables to separate development and production configurations.
+    - Reduction of manual work in checking and collecting information from corporate documents
+  skills:
+    - python
+    - microsoft-graph-api
+    - onedrive
+    - authentication
+    - msal
+    - oauth
+    - api-integration
+    - git
+    - gitlab
+    - pdf-parsing
+    - pdfplumber
+    - requests
+    - regex
+    - process-automation
+    - document-automation
+    - data-extraction
+    - auth-security
+    - automation
+    - backend
+    - data-analysis-lang
+    - data-processing
+    - dev-tools
+    - documentation
+    - integrations
+    - platform
+    - prog-lang
+
+- id: sales-information-management-system
+  title: Sales Information Management System
+  short-title: Sales Info System
+  year: 2024
+  summary: 'Developed a structured data management and automation solution for the sales team using Google Forms, Google Sheets, Google Apps Script, and Google Docs to centralize commercial information, automate data collection, improve searchability, and reduce manual work.'
+  bullets:
+    - 'Created a Google Forms workflow to standardize data entry and replace unstructured document-based records with a structured data collection process.'
+    - 'Developed Google Apps Script automations to process form submissions, reorganize submitted data, generate Google Maps links, apply formatting, update timestamps, and maintain filters automatically.'
+    - 'Implemented a search interface in Google Sheets to filter internal data and display relevant results in a dedicated search tab.'
+    - 'Integrated Google Sheets with Google Docs to generate organized, easy-to-read records for the sales team.'
+    - 'Improved information lookup, reduced manual work, and made the data management process more organized and scalable for the sales team'
+  skills:
+    - google-forms
+    - google-sheets
+    - google-apps-script
+    - google-docs
+    - workflow-automation
+    - process-automation
+    - automation
+    - business-analysis
+    - data-processing
+    - documentation
+    - integrations
+    - platform
+    - productivity
+
+- id: lead-to-deal-automation
+  title: Lead-to-Deal Automation System
+  short-title: Lead-to-Deal System
+  year: 2024
+  summary: 'Developed an automation workflow connecting Google Forms, Zapier, and Pipedrive CRM to standardize lead intake, reduce manual entry, and accelerate sales operations.'
+  bullets:
+    - 'Built a Google Forms-based intake process to collect the required information at the beginning of the sales workflow in a more standardized format.'
+    - 'Configured a Zapier automation to receive submitted form data and orchestrate the integration flow with Pipedrive CRM.'
+    - 'Implemented validation logic to check whether a person already existed in the CRM before creating a new record, reducing duplicate contacts.'
+    - 'Automated deal creation in Pipedrive, linked each deal to the corresponding contact, and assigned it to the correct pipeline stage based on the submitted information.'
+    - 'Improved sales workflow efficiency by reducing repetitive manual tasks and making contact and deal registration more consistent and organized.'
+  skills:
+    - google-forms
+    - zapier
+    - pipedrive-crm
+    - workflow-automation
+    - api-integration
+    - lead-management
+    - sales-pipeline-management
+    - automation
+    - crm-sales
+    - integrations
+    - platform
+    - productivity
+
+- id: pipedrive-crm-learnig-documentation
+  title: Pipedrive CRM Learning Documentation
+  short-title: Pipedrive CRM Docs
+  year: 2024
+  summary: Created structured learning documentation about Pipedrive CRM, covering core
+    concepts, sales pipeline management, contacts, leads, deals, activities,
+    email synchronization, account configuration, and sales insights. The
+    documentation was organized to support practical understanding of CRM
+    workflows and how Pipedrive can be used to manage sales processes from lead
+    capture to deal closing.
+  bullets:
+    - Documented the main Pipedrive CRM entities, including contacts, organizations, leads, deals, activities, products, and insights.
+    - Explained how sales pipelines work, including deal probability, stage probability, rotting deals, list view, and forecast view.
+    - Mapped the deal management workflow, covering detailed views, sidebars, communication history, notes, activities, documents, invoices, and focus sections.
+    - Organized guidance on contact management, including people, organizations, contact synchronization, filters, and timeline usage.
+    - Documented lead management features such as lead inbox, lead conversion, LeadBooster, chatbot, live chat, and prospector tools.
+    - Explained Pipedrive email management features, including Smart BCC, full email sync, sales inbox, email templates, tracking, group emails, signatures, and sharing settings.
+    - Covered activity and calendar management, including calendar synchronization, activity scheduling, pipeline activity prioritization, and meeting scheduler usage.
+    - Structured account setup topics such as company account settings, user permissions, personal preferences, data import/export, custom fields, and security tracking.
+    - Summarized sales reporting concepts in Pipedrive Insights, including reports, goals, dashboards, lead reports, deal reports, and performance metrics.
+  skills:
+    - pipedrive-crm
+    - sales-pipeline-management
+    - lead-management
+    - deal-management
+    - business-process-mapping
+    - technical-writing
+    - process-analysis
+    - business-analysis
+    - crm-sales
+    - documentation
+    - platform
+
+- id: vilela-properties
+  title: Vilela Properties Real Estate Website
+  short-title: Vilela Properties
+  year: 2023
+  summary: 'Implemented the front-end for a real estate web system, covering core user-facing pages such as contact, login, and property browsing with a responsive and functional interface.'
+  bullets:
+    - 'Built front-end pages for a real estate platform, including contact, login, and property viewing flows.'
+    - 'Developed responsive interfaces using fimage-processing, CSS, JavaScript, and Bootstrap to ensure consistent usability across devices.'
+    - 'Structured the visual layer of the system to support clear navigation and a functional browsing experience for property listings.'
+  links:
+    - label: Github Repository
+      icon: 'mdi:github'
+      url: 'https://github.com/fpvilela/vilela-properties'
+  skills:
+    - html
+    - css
+    - javascript
+    - bootstrap
+    - responsive-web-design
+    - web-design
+    - ui-development
+    - prog-lang
+    - ui-ux
+    - webdev

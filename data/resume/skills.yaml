@@ -1,0 +1,399 @@
+- id: api-integration
+  label: API Integration
+  since-year: 2024
+  competency: advanced
+
+- id: artificial-intelligence
+  label: Artificial Intelligence
+  since-year: 2025
+  competency: advanced
+
+- id: authentication
+  label: Authentication
+  since-year: 2024
+  competency: experienced
+
+- id: bootstrap
+  label: Bootstrap
+  since-year: 2023
+  competency: experienced
+
+- id: business-process-mapping
+  label: Business Process Mapping
+  since-year: 2024
+  competency: experienced
+
+- id: chatbot-development
+  label: Chatbot Development
+  since-year: 2025
+  competency: experienced
+
+- id: css
+  label: CSS
+  since-year: 2023
+  competency: experienced
+
+- id: data-extraction
+  label: Data Extraction
+  since-year: 2024
+  competency: advanced
+
+- id: deal-management
+  label: Deal Management
+  since-year: 2024
+  competency: experienced
+
+- id: deployment
+  label: Deployment
+  since-year: 2026
+  competency: advanced
+
+- id: docker
+  label: Docker
+  since-year: 2026
+  competency: experienced
+
+- id: document-automation
+  label: Document Automation
+  since-year: 2024
+  competency: advanced
+
+- id: express
+  label: Express
+  since-year: 2026
+  competency: experienced
+
+- id: git
+  label: Git
+  since-year: 2023
+  competency: expert
+
+- id: github
+  label: GitHub
+  since-year: 2023
+  competency: expert
+
+- id: gitlab
+  label: GitLab
+  since-year: 2024
+  competency: advanced
+
+- id: google-sheets
+  label: Google Sheets
+  since-year: 2024
+  competency: advanced
+
+- id: google-forms
+  label: Google Forms
+  since-year: 2024
+  competency: experienced
+
+- id: google-apps-script
+  label: Google Apps Script
+  since-year: 2024
+  competency: experienced
+
+- id: google-docs
+  label: Google Docs
+  since-year: 2024
+  competency: experienced
+
+- id: html
+  label: HTML
+  since-year: 2023
+  competency: experienced
+
+- id: javascript
+  label: JavaScript
+  since-year: 2023
+  competency: experienced
+
+- id: lead-management
+  label: Lead Management
+  since-year: 2024
+  competency: experienced
+
+- id: microsoft-graph-api
+  label: Microsoft Graph API
+  since-year: 2024
+  competency: experienced
+
+- id: msal
+  label: Microsoft Authentication Library (MSAL)
+  since-year: 2024
+  competency: experienced
+
+- id: mysql
+  label: MySQL / MariaDB
+  since-year: 2026
+  competency: experienced
+
+- id: n8n
+  label: n8n
+  since-year: 2025
+  competency: advanced
+
+- id: nodejs
+  label: Node.js
+  since-year: 2026
+  competency: experienced
+
+- id: oauth
+  label: OAuth
+  since-year: 2024
+  competency: experienced
+
+- id: onedrive
+  label: OneDrive
+  since-year: 2024
+  competency: experienced
+
+- id: openai
+  label: OpenAI API
+  since-year: 2025
+  competency: advanced
+
+- id: pdf-parsing
+  label: PDF Parsing
+  since-year: 2024
+  competency: experienced
+
+- id: pdfplumber
+  label: pdfplumber
+  since-year: 2024
+  competency: experienced
+
+- id: php
+  label: PHP
+  since-year: 2026
+  competency: experienced
+
+- id: pipedrive-crm
+  label: Pipedrive CRM
+  since-year: 2024
+  competency: advanced
+
+- id: postgresql
+  label: PostgreSQL
+  since-year: 2025
+  competency: experienced
+
+- id: process-analysis
+  label: Process Analysis
+  since-year: 2024
+  competency: advanced
+
+- id: process-automation
+  label: Process Automation
+  since-year: 2024
+  competency: advanced
+
+- id: python
+  label: Python
+  since-year: 2024
+  competency: experienced
+
+- id: react
+  label: React
+  since-year: 2026
+  competency: experienced
+  
+- id: regex
+  label: Regular Expressions
+  since-year: 2024
+  competency: experienced
+
+- id: requests
+  label: Python Requests
+  since-year: 2024
+  competency: experienced
+
+- id: requirements-analysis
+  label: Requirements Analysis
+  since-year: 2026
+  competency: experienced
+
+- id: responsive-web-design
+  label: Responsive Web Design
+  since-year: 2023
+  competency: experienced
+
+- id: role-based-access-control
+  label: Role-Based Access Control (RBAC)
+  since-year: 2026
+  competency: experienced
+
+- id: sales-pipeline-management
+  label: Sales Pipeline Management
+  since-year: 2024
+  competency: advanced
+
+- id: ssh
+  label: SSH
+  since-year: 2024
+  competency: advanced
+
+- id: supabase
+  label: Supabase
+  since-year: 2025
+  competency: advanced
+
+- id: tailwind-css
+  label: Tailwind CSS
+  since-year: 2026
+  competency: experienced
+
+- id: technical-documentation
+  label: Technical Documentation
+  since-year: 2026
+  competency: experienced
+
+- id: technical-writing
+  label: Technical Writing
+  since-year: 2024
+  competency: experienced
+
+- id: typescript
+  label: TypeScript
+  since-year: 2026
+  competency: experienced
+
+- id: ui-development
+  label: UI Development
+  since-year: 2023
+  competency: advanced
+
+- id: use-case-modeling
+  label: Use Case Modeling
+  since-year: 2026
+  competency: experienced
+
+- id: web-design
+  label: Web Design
+  since-year: 2023
+  competency: advanced
+
+- id: webhooks
+  label: Webhooks
+  since-year: 2025
+  competency: experienced
+
+- id: whatsapp-api
+  label: WhatsApp API
+  since-year: 2025
+  competency: experienced
+
+- id: zapier
+  label: Zapier
+  since-year: 2024
+  competency: experienced
+
+- id: wordpress
+  label: WordPress
+  since-year: 2026
+  competency: experienced
+
+- id: workflow-automation
+  label: Workflow Automation
+  since-year: 2024
+  competency: advanced
+
+- id: ai-ml
+  label: Artificial Intelligence and Machine Learning
+  since-year: 2025
+  competency: advanced
+
+- id: auth-security
+  label: Authentication and Security
+  since-year: 2024
+  competency: advanced
+
+- id: automation
+  label: Automation
+  since-year: 2024
+  competency: advanced
+
+- id: backend
+  label: Backend Development
+  since-year: 2024
+  competency: advanced
+
+- id: business-analysis
+  label: Business Analysis
+  since-year: 2024
+  competency: experienced
+
+- id: cms
+  label: Content Management Systems (CMS)
+  since-year: 2026
+  competency: experienced
+
+- id: crm-sales
+  label: CRM and Sales Operations
+  since-year: 2024
+  competency: advanced
+
+- id: data-analysis-lang
+  label: Languages for Data Analysis and Manipulation
+  since-year: 2024
+  competency: experienced
+
+- id: data-processing
+  label: Data Processing
+  since-year: 2024
+  competency: advanced
+
+- id: database
+  label: Database Management and Storage
+  since-year: 2025
+  competency: advanced
+
+- id: dev-tools
+  label: Software Development Tools and Methods
+  since-year: 2023
+  competency: expert
+
+- id: devops-infra
+  label: DevOps and Infrastructure Management
+  since-year: 2026
+  competency: experienced
+
+- id: documentation
+  label: Documentation
+  since-year: 2024
+  competency: advanced
+
+- id: integrations
+  label: Systems and API Integrations
+  since-year: 2024
+  competency: advanced
+
+- id: platform
+  label: Platforms and Services
+  since-year: 2024
+  competency: advanced
+
+- id: product
+  label: Product and Requirements
+  since-year: 2026
+  competency: experienced
+
+- id: productivity
+  label: Productivity Tools
+  since-year: 2024
+  competency: advanced
+
+- id: prog-lang
+  label: Programming Language
+  since-year: 2023
+  competency: advanced
+
+- id: ui-ux
+  label: UI and UX Design
+  since-year: 2023
+  competency: experienced
+
+- id: webdev
+  label: Web and Frontend Development
+  since-year: 2023
+  competency: advanced

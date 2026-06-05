@@ -1,0 +1,10 @@
+- Main reference: https://santifer.io/
+- Other references:
+    - https://zalt.me/
+    - https://mattfarley.ca/
+    - https://brittanychiang.com/
+    - https://jrdan.dev/
+    - https://harshvora.dev/
+    - https://codebyluis.dev/
+    - https://www.aidanm.com/
+    - https://bojidaryovchev.dev/

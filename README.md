@@ -1,42 +1,62 @@
-# sv
+# fpvilela.dev
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Personal professional website built with SvelteKit.
 
-## Creating a project
+## Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- SvelteKit
+- TypeScript
+- Pure CSS
+- YAML as the canonical resume data source
 
-```sh
-# create a new project
-npx sv create my-app
+## Project Structure
+
+```text
+data/
+  resume/      # canonical website data and resume dataset
+docs/
+  specs/       # implementation plans, references, and page templates
+src/           # application code
+static/        # public assets served as-is
 ```
 
-To recreate this project with the same configuration:
+### Folder Roles
+
+- `data/resume`
+  Stores the source-of-truth structured data for the website. These YAML files should be edited here, not duplicated elsewhere.
+- `docs/specs`
+  Stores planning and implementation guidance, including structure definitions, references, and page templates.
+- `src`
+  Stores SvelteKit routes, components, loaders, and application logic.
+- `static`
+  Stores public assets that should be served directly, such as images, icons, and downloadable files.
+
+## Development
+
+Install dependencies and start the dev server:
 
 ```sh
-# recreate this project
-npx sv@0.15.4 create --template minimal --types ts --add prettier eslint vitest="usages:unit,component" playwright sveltekit-adapter="adapter:auto" --install npm ./
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+npm install
 npm run dev
+```
 
-# or start the server and open the app in a new browser tab
+To open the local app in a browser:
+
+```sh
 npm run dev -- --open
 ```
 
-## Building
+## Quality Checks
 
-To create a production version of your app:
+```sh
+npm run check
+npm run lint
+npm run test
+```
+
+## Production Build
 
 ```sh
 npm run build
+npm run preview
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
