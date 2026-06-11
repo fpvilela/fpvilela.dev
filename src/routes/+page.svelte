@@ -785,7 +785,7 @@
 	.hero-grid {
 		display: grid;
 		gap: var(--space-6);
-		align-items: end;
+		align-items: start;
 	}
 
 	.eyebrow,
