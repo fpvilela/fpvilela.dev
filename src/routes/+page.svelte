@@ -7,7 +7,7 @@
 		period: string;
 		description: string;
 		roles: string[];
-		projects: { label: string; href: string }[];
+		projects: LinkItem[];
 	};
 	type ProjectItem = {
 		id: string;
