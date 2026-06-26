@@ -22,7 +22,7 @@
     - 'Organize integrations, validation rules, and processing pipelines to reduce manual work and improve reliability.'
     - 'Maintain code that supports internal operations with clear structure, practical maintainability, and production-focused behavior.'
 
-- roleid: chatbot-developer
+- id: chatbot-developer
   title: Chatbot Developer
   description:
     - 'Build conversational systems that assist users through messaging platforms with context-aware and goal-oriented interactions.'

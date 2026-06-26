@@ -1,6 +1,7 @@
 - title: Full-stack Developer
   company: rosh
   date-of-employment: 03/2026 - 05/2026
+  summary: Developed business websites and web systems spanning requirements analysis, front-end implementation, back-end logic, deployment, and WordPress delivery.
   roles:
     - full-stack-developer
     - frontend-developer
@@ -15,6 +16,7 @@
 - title: n8n Developer
   company: woont
   date-of-employment: 12/2025 - 02/2026
+  summary: Built automation and conversational systems with n8n, AI services, APIs, and WhatsApp-based workflows for legal and real estate operational use cases.
   roles:
     - workflow-automation-developer
     - ai-automation-developer
@@ -27,6 +29,7 @@
 - title: Personal Projects & Technical Learning
   company: personal-projects
   date-of-employment: 10/2024 - Present
+  summary: Developed personal projects focused on full-stack development, automation, integrations, and technical communication while expanding practical experience across products and learning initiatives.
   roles:
     - full-stack-developer
     - frontend-developer
@@ -40,6 +43,7 @@
 - title: Back-end Developer
   company: vistocerto
   date-of-employment: 12/2023 - 11/2025
+  summary: Developed backend automations, document processing workflows, CRM support routines, and technical documentation to improve legal and sales operations.
   roles:
     - backend-developer
     - workflow-automation-developer
@@ -53,11 +57,12 @@
     - onedrive-pdf-data-extractor
     - sales-information-management-system
     - lead-to-deal-automation
-    - pipedrive-crm-learnig-documentation
+    - pipedrive-crm-learning-documentation
 
 - title: Front-end Developer
   company: vzion
   date-of-employment: 01/2023 - 06/2023
+  summary: Implemented responsive front-end interfaces for a real estate web platform, covering property browsing and core user-facing pages.
   roles:
     - frontend-developer
   projects:
