@@ -1,14 +1,7 @@
 <script lang="ts">
+	import type { PageProps } from './$types';
+
 	type LinkItem = { label: string; href: string };
-	type ExperienceItem = {
-		title: string;
-		company: string;
-		companyHref?: string;
-		period: string;
-		description: string;
-		roles: string[];
-		projects: LinkItem[];
-	};
 	type ProjectItem = {
 		id: string;
 		title: string;
@@ -26,6 +19,8 @@
 	};
 	type SkillGroup = { title: string; items: { label: string; level: string }[] };
 
+	let { data }: PageProps = $props();
+
 	const navItems = [
 		{ label: 'About', href: '#about' },
 		{ label: 'Experience', href: '#experience' },
@@ -34,103 +29,6 @@
 	];
 
 	const proofItems = ['Web systems.', 'Workflow automation.', 'API integrations.'];
-
-	const experience: ExperienceItem[] = [
-		{
-			title: 'Full-stack Developer',
-			company: 'ROSH Tecnologia',
-			companyHref: 'https://roshtecnologia.com.br/',
-			period: '03/2026 - 05/2026',
-			description:
-				'Developed business websites and web systems spanning requirements analysis, front-end implementation, back-end logic, deployment, and WordPress delivery.',
-			roles: [
-				'Full-stack Developer',
-				'Front-end Developer',
-				'Systems Analyst',
-				'Deployment Specialist',
-				'WordPress Developer'
-			],
-			projects: [
-				{ label: 'Connecta Moveis', href: '#connecta-moveis-website' },
-				{ label: 'Traje Fino', href: '#traje-fino-website' },
-				{ label: 'Track Day Landing Page', href: '#track-day-wordpress' }
-			]
-		},
-		{
-			title: 'n8n Developer',
-			company: 'Woont.co',
-			companyHref: 'https://www.instagram.com/woont.co/',
-			period: '12/2025 - 02/2026',
-			description:
-				'Built automation and conversational systems with n8n, AI services, APIs, and WhatsApp-based workflows for legal and real estate operational use cases.',
-			roles: [
-				'Workflow Automation Developer',
-				'AI Automation Developer',
-				'Chatbot Developer',
-				'API Integration Specialist'
-			],
-			projects: [
-				{ label: 'Legal Automation', href: '#legal-automation' },
-				{ label: 'Real Estate Multi-Agent System', href: '#real-estate-multi-agent' }
-			]
-		},
-		{
-			title: 'Personal Projects & Technical Learning',
-			company: 'Personal Initiatives and Projects',
-			companyHref: 'https://github.com/fpvilela',
-			period: '10/2024 - Present',
-			description:
-				'Developed personal projects focused on full-stack development, automation, integrations, and technical communication while expanding practical experience across products and learning initiatives.',
-			roles: [
-				'Full-stack Developer',
-				'Front-end Developer',
-				'Workflow Automation Developer',
-				'API Integration Specialist'
-			],
-			projects: [
-				{ label: 'Communit Hub', href: '#communit-hub' },
-				{
-					label: 'Alerts to WhatsApp Automation',
-					href: '#google-alerts-whatsapp-content-automation'
-				},
-				{ label: 'YouTube Programming Channel', href: '#youtube-channel' }
-			]
-		},
-		{
-			title: 'Back-end Developer',
-			company: 'Seu Visto Certo',
-			companyHref: 'https://seuvistocerto.com/',
-			period: '12/2023 - 11/2025',
-			description:
-				'Developed backend automations, document processing workflows, CRM support routines, and technical documentation to improve legal and sales operations.',
-			roles: [
-				'Back-end Developer',
-				'Workflow Automation Developer',
-				'API Integration Specialist',
-				'Document Automation Developer',
-				'CRM Administrator',
-				'Sales Operations Specialist',
-				'CRM Trainer',
-				'Technical Documentation Specialist'
-			],
-			projects: [
-				{ label: 'OneDrive PDF Extractor', href: '#onedrive-pdf-data-extractor' },
-				{ label: 'Sales Info System', href: '#sales-information-management-system' },
-				{ label: 'Lead-to-Deal System', href: '#lead-to-deal-automation' },
-				{ label: 'Pipedrive CRM Docs', href: '#pipedrive-crm-learning-documentation' }
-			]
-		},
-		{
-			title: 'Front-end Developer',
-			company: 'Vzion Corporation',
-			companyHref: 'https://www.instagram.com/vzion.corp/',
-			period: '01/2023 - 06/2023',
-			description:
-				'Implemented responsive front-end interfaces for a real estate web platform, covering property browsing and core user-facing pages.',
-			roles: ['Front-end Developer'],
-			projects: [{ label: 'Vilela Properties', href: '#vilela-properties' }]
-		}
-	];
 
 	const featuredProjects: ProjectItem[] = [
 		{
@@ -433,13 +331,13 @@
 				</div>
 
 				<div class="experience-list">
-					{#each experience as item}
+					{#each data.experience as item}
 						<article class="experience-item">
 							<div class="experience-item__header">
 								<h3>{item.title}</h3>
 								<p class="experience-meta">
 									<a href={item.companyHref} target="_blank" rel="noreferrer">{item.company}</a>
-									<span>{item.period}</span>
+									<span>{item.dateOfEmployment}</span>
 								</p>
 							</div>
 							<p>{item.description}</p>
