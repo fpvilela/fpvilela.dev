@@ -132,6 +132,13 @@
 
 ## Projects
 
+- Homepage note:
+  - The homepage should render only a curated subset of the full project dataset.
+  - Project cards should show a curated bullet subset rather than the full project record.
+  - Project cards should also use a curated skill subset when the full project skill list is too broad for the homepage.
+  - If a project has additional bullet points beyond the curated homepage set, show a `Read more` link that routes to the future dedicated projects page.
+  - The dedicated projects page should render the full bullet list for each project.
+
 ### Connecta Moveis
 
 - Project reference: `#connecta-moveis-website`

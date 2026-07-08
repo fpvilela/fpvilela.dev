@@ -157,6 +157,8 @@ Final decisions:
   - skills
 - Homepage featured projects should feel more designed than experience entries, but still avoid heavy showcase-card styling.
 - Skills should be shown as grouped chips limited to the most relevant set per project on the homepage.
+- Homepage project cards should remain summary-first and should not expand inline to reveal the full project record.
+- If a project has more detail than the homepage card should show, use a `Read more` link that navigates to the dedicated project page rather than a dropdown or accordion inside the homepage grid.
 
 ## Education
 

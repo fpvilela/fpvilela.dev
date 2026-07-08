@@ -266,6 +266,13 @@ Structure for each project item:
 - Optional links
 - Skills shown as readable labels
 
+Homepage curation rules:
+
+- The homepage should render only a curated subset of projects from the full project dataset.
+- Homepage project cards should use curated subsets of skills and bullet points rather than the full project record when needed for clearer presentation.
+- The full project record should remain available for dedicated project views or future archive pages.
+- If the homepage card is showing curated content instead of the full project content, a `Read more` link may be shown and should navigate to the dedicated project page rather than expanding inline on the homepage.
+
 Entries:
 
 #### Connecta Moveis
