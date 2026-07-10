@@ -2,15 +2,6 @@
 	import type { PageProps } from './$types';
 
 	type LinkItem = { label: string; href: string };
-	type ProjectItem = {
-		id: string;
-		title: string;
-		year: number;
-		summary: string;
-		bullets: string[];
-		skills: string[];
-		links?: LinkItem[];
-	};
 	type CourseItem = {
 		title: string;
 		provider: string;
@@ -29,61 +20,6 @@
 	];
 
 	const proofItems = ['Web systems.', 'Workflow automation.', 'API integrations.'];
-
-	const featuredProjects: ProjectItem[] = [
-		{
-			id: 'connecta-moveis-website',
-			title: 'Connecta Moveis',
-			year: 2026,
-			summary:
-				'Developed an end-to-end web system for a corporate furniture catalog, including an administrative panel, product management workflows, and deployment to a production hosting environment.',
-			bullets: [
-				'Gathered requirements, organized use cases, and used them to guide implementation decisions.',
-				'Built authentication, access control, CRUD flows, and image handling with PHP, HTML, CSS, and MySQL.',
-				'Structured Docker-based local development and handled production deployment through SSH and GitHub.'
-			],
-			skills: ['PHP', 'MySQL / MariaDB', 'Docker', 'RBAC', 'Deployment', 'Technical Documentation']
-		},
-		{
-			id: 'real-estate-multi-agent',
-			title: 'Real Estate Multi-Agent System',
-			year: 2026,
-			summary:
-				'Developed a multi-agent WhatsApp support system for a real estate company, routing conversations between specialized AI assistants for commercial, legal, and financial service.',
-			bullets: [
-				'Designed three specialized assistants coordinated by a central routing agent.',
-				'Connected the commercial flow to Superlogica and linked legal and financial flows to client databases.',
-				'Built a shared support workflow that adapted responses according to conversation context and business area.'
-			],
-			skills: ['n8n', 'OpenAI API', 'WhatsApp API', 'Workflow Automation', 'API Integration', 'Webhooks']
-		},
-		{
-			id: 'legal-automation',
-			title: 'Legal Automation',
-			year: 2025,
-			summary:
-				'Developed a legal automation system that transformed case updates into humanized communications with clients, automated reminders and billing notifications, and supported WhatsApp chatbot workflows.',
-			bullets: [
-				'Built n8n workflows connecting Google Sheets, Supabase, OpenAI, and WhatsApp via Z-API.',
-				'Implemented case-progress classification and context-aware message generation for operational actions.',
-				'Structured Supabase and PostgreSQL storage for workflow state, history, and process control.'
-			],
-			skills: ['n8n', 'Supabase', 'PostgreSQL', 'OpenAI API', 'Automation', 'Chatbot Development']
-		},
-		{
-			id: 'communit-hub',
-			title: 'Communit Hub',
-			year: 2026,
-			summary:
-				'Contributed to a centralized communication and operations platform for managing WhatsApp, email, and internal workflows from a single panel.',
-			bullets: [
-				'Implemented Supabase authentication flows, protected routes, and user profile setup.',
-				'Applied Row Level Security policies for controlled access to operational data.',
-				'Built key parts of the email module, including IMAP and SMTP configuration, message views, and attachment handling.'
-			],
-			skills: ['TypeScript', 'React', 'Node.js', 'Express', 'Supabase', 'Authentication']
-		}
-	];
 
 	const education = [
 		{
@@ -371,7 +307,7 @@
 				</div>
 
 				<div class="project-grid">
-					{#each featuredProjects as project}
+					{#each data.projects as project}
 						<article class="project-card" id={project.id}>
 							<div class="project-card__top">
 								<h3>{project.title}</h3>
@@ -383,6 +319,11 @@
 									<li>{bullet}</li>
 								{/each}
 							</ul>
+							{#if project.hasMoreContent}
+								<div class="link-row">
+									<span class="link-row__placeholder" aria-disabled="true">Read more</span>
+								</div>
+							{/if}
 							{#if project.links?.length}
 								<div class="link-row">
 									{#each project.links as link}
@@ -882,6 +823,14 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: var(--space-3);
+	}
+
+	.link-row__placeholder {
+		color: var(--color-text-muted);
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.18em;
+		cursor: default;
 	}
 
 	.project-grid {

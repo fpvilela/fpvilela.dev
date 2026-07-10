@@ -9,3 +9,14 @@ export type ExperienceItem = {
 	roles: string[];
 	projects: LinkItem[];
 };
+
+export type ProjectItem = {
+	id: string;
+	title: string;
+	year: number;
+	summary: string;
+	bullets: string[];
+	skills: string[];
+	links?: LinkItem[];
+	hasMoreContent?: boolean;
+};

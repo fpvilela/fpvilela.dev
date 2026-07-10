@@ -26,6 +26,24 @@ export type ProjectRecord = {
 	id: string;
 	title: string;
 	'short-title'?: string;
+	year: number;
+	featured?: boolean;
+	'featured-order'?: number;
+	'featured-skills'?: string[];
+	'featured-bullets'?: string[];
+	summary: string;
+	bullets: string[];
+	links?: Array<{
+		label: string;
+		url: string;
+		icon?: string;
+	}>;
+	skills: string[];
+};
+
+export type SkillRecord = {
+	id: string;
+	label: string;
 };
 
 export type ResumeSourceData = {
@@ -33,4 +51,5 @@ export type ResumeSourceData = {
 	companies: CompanyRecord[];
 	roles: RoleRecord[];
 	projects: ProjectRecord[];
+	skills: SkillRecord[];
 };

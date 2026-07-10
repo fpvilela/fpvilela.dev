@@ -7,7 +7,8 @@ import type {
 	ProjectRecord,
 	ResumeExperienceRecord,
 	ResumeSourceData,
-	RoleRecord
+	RoleRecord,
+	SkillRecord
 } from './source-types';
 
 const RESUME_DATA_DIRECTORY = new URL('../../../../data/resume/', import.meta.url);
@@ -21,6 +22,7 @@ export function loadResumeSources(): ResumeSourceData {
 		experiences: readYamlFile<ResumeExperienceRecord[]>('experiences.yaml'),
 		companies: readYamlFile<CompanyRecord[]>('companies.yaml'),
 		roles: readYamlFile<RoleRecord[]>('roles.yaml'),
-		projects: readYamlFile<ProjectRecord[]>('projects.yaml')
+		projects: readYamlFile<ProjectRecord[]>('projects.yaml'),
+		skills: readYamlFile<SkillRecord[]>('skills.yaml')
 	};
 }

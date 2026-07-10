@@ -2,6 +2,19 @@
   title: Connecta Moveis Website
   short-title: Connecta Moveis
   year: 2026
+  featured: true
+  featured-order: 1
+  featured-skills:
+    - php
+    - mysql
+    - docker
+    - role-based-access-control
+    - deployment
+    - technical-documentation
+  featured-bullets:
+    - 'Gathered and organized requirements, and created use cases to guide implementation throughout the project lifecycle.'
+    - 'Built the system using PHP, HTML, CSS, and remote MySQL, covering authentication, session management, access control, and CRUD operations for furniture, categories, and images.'
+    - 'Implemented imae upload workflows with automatic WebP conversion and size standardization to support catalog consistency and performance.'
   summary: 'Developed an end-to-end web system for a corporate furniture catalog, including an administrative panel, product management workflows, and deployment to a production hosting environment.'
   bullets:
     - 'Gathered and organized requirements, and created use cases to guide implementation throughout the project lifecycle.'
@@ -42,6 +55,7 @@
   title: Traje Fino Website
   short-title: Traje Fino
   year: 2026
+  featured: false
   summary: 'Developed a commercial landing page for suit rentals with interactive product recommendation logic and deployment to a production shared hosting environment.'
   bullets:
     - 'Built the landing page using HTML, CSS, and JavaScript with a commercial layout focused on presenting suit rental options clearly.'
@@ -67,6 +81,7 @@
   title: Track Day WordPress Landing Page
   short-title: Track Day Landing Page
   year: 2026
+  featured: false
   summary: 'Redesigned and rebuilt a WordPress page for a motorcycle riding course, covering content strategy, visual direction, and page implementation.'
   bullets:
     - 'Redesigned the Track Day page for a motorcycle riding course website with a new visual concept tailored to the event and its audience.'
@@ -85,6 +100,15 @@
   title: Communit Hub Communication Platform
   short-title: Communit Hub
   year: 2026
+  featured: true
+  featured-order: 4
+  featured-skills:
+    - typescript
+    - react
+    - nodejs
+    - express
+    - supabase
+    - authentication
   summary: 'Contributed to the development of Communit Hub, a centralized communication and operations platform designed to help teams manage WhatsApp, email, and internal workflows from a single panel.'
   bullets:
     - 'Implemented core authentication flows with Supabase, including user profile creation, authenticated route protection, and improvements to the login and sign-up experience.'
@@ -114,6 +138,19 @@
   title: Real Estate WhatsApp Multi-Agent Support System
   short-title: Real Estate Multi-Agent System
   year: 2026
+  featured: true
+  featured-order: 2
+  featured-skills:
+    - n8n
+    - openai
+    - whatsapp-api
+    - workflow-automation
+    - api-integration
+    - webhooks
+  featured-bullets:
+    - 'I designed a multi-agent customer service flow with three specialized assistants, each responsible for a different business area.'
+    - 'Implemented a central routing agent that analyzed incoming conversations and directed each client interaction to the appropriate specialist agent based on context and intent.'
+    - 'Connected the commercial agent to the Superlogica API to keep property information synchronized and available during sales conversations.'
   summary: 'Developed a multi-agent WhatsApp support system for a real estate company, routing conversations between specialized AI assistants for commercial, legal, and financial service.'
   bullets:
     - 'I designed a multi-agent customer service flow with three specialized assistants, each responsible for a different business area.'
@@ -142,6 +179,19 @@
   title: Legal Automation for Law Firms
   short-title: Legal Automation
   year: 2025
+  featured: true
+  featured-order: 3
+  featured-skills:
+    - n8n
+    - supabase
+    - postgresql
+    - openai
+    - automation
+    - chatbot-development
+  featured-bullets:
+    - Built an ecosystem of n8n workflows integrating Google Sheets, Supabase, OpenAI, and WhatsApp via Z-API to automate communication between a legal office and its clients.
+    - Implemented automated reading and classification of case progress events to trigger context-aware legal messages and operational actions.
+    - Developed AI-assisted message generation to produce humanized legal updates, reminders for expert examinations, and billing notifications.
   summary: I developed a legal automation system that transformed case updates into humanized communications with clients, automated reminders and billing notifications, as well as providing chatbot support via WhatsApp.
   bullets:
     - Built an ecosystem of n8n workflows integrating Google Sheets, Supabase, OpenAI, and WhatsApp via Z-API to automate communication between a legal office and its clients.
@@ -175,6 +225,7 @@
   title: Google Alerts to WhatsApp Content Automation
   short-title: Alerts to WhatsApp Automation
   year: 2025
+  featured: false
   summary: 'Built a semi-automated content monitoring workflow that captures Google Alerts emails, extracts relevant news, categorizes them by topic, stores structured data in Google Sheets, and prepares formatted messages for WhatsApp channels.'
   bullets:
     - 'Configured Google Alerts and Gmail labels to centralize monitored news emails based on strategic keywords.'
@@ -201,6 +252,7 @@
   title: Programming Learning YouTube Channel
   short-title: YouTube Programming Channel
   year: 2024
+  featured: false
   summary: Created a YouTube channel to document my programming learning journey through educational videos in English, covering practical CSS and JavaScript concepts while demonstrating technical communication and intermediate English proficiency.
   bullets:
     - Produced educational programming videos focused on practical front-end development topics, including CSS layout, styling, selectors, transforms, variables, DOM manipulation, JavaScript functions, events, arrays, objects, and conditional logic.
@@ -225,6 +277,7 @@
   title: Python Automation for Document Data Extraction in OneDrive
   short-title: OneDrive PDF Extractor
   year: 2024
+  featured: false
   summary: Project developed in Python to automate the reading of specific files stored in a corporate OneDrive account. 
   bullets:
     - Integration with Microsoft Graph API to access corporate files and folders on OneDrive.
@@ -271,6 +324,7 @@
   title: Sales Information Management System
   short-title: Sales Info System
   year: 2024
+  featured: false
   summary: 'Developed a structured data management and automation solution for the sales team using Google Forms, Google Sheets, Google Apps Script, and Google Docs to centralize commercial information, automate data collection, improve searchability, and reduce manual work.'
   bullets:
     - 'Created a Google Forms workflow to standardize data entry and replace unstructured document-based records with a structured data collection process.'
@@ -297,6 +351,7 @@
   title: Lead-to-Deal Automation System
   short-title: Lead-to-Deal System
   year: 2024
+  featured: false
   summary: 'Developed an automation workflow connecting Google Forms, Zapier, and Pipedrive CRM to standardize lead intake, reduce manual entry, and accelerate sales operations.'
   bullets:
     - 'Built a Google Forms-based intake process to collect the required information at the beginning of the sales workflow in a more standardized format.'
@@ -322,6 +377,7 @@
   title: Pipedrive CRM Learning Documentation
   short-title: Pipedrive CRM Docs
   year: 2024
+  featured: false
   summary: Created structured learning documentation about Pipedrive CRM, covering core
     concepts, sales pipeline management, contacts, leads, deals, activities,
     email synchronization, account configuration, and sales insights. The
@@ -355,6 +411,7 @@
   title: Vilela Properties Real Estate Website
   short-title: Vilela Properties
   year: 2023
+  featured: false
   summary: 'Implemented the front-end for a real estate web system, covering core user-facing pages such as contact, login, and property browsing with a responsive and functional interface.'
   bullets:
     - 'Built front-end pages for a real estate platform, including contact, login, and property viewing flows.'
