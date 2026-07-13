@@ -1,4 +1,4 @@
-export type LinkItem = { label: string; href: string };
+export type LinkItem = { label: string; href: string; icon?: string };
 
 export type ExperienceItem = {
 	title: string;

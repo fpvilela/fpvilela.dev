@@ -23,7 +23,8 @@ function getSkillLabels(skillIds: string[], skills: Map<string, SkillRecord>): s
 function getProjectLinks(project: ProjectRecord): LinkItem[] | undefined {
 	return project.links?.map((link) => ({
 		label: link.label,
-		href: link.url
+		href: link.url,
+		icon: link.icon
 	}));
 }
 

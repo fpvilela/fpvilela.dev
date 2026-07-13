@@ -6,7 +6,7 @@
     - label: 'Official website'
       url: 'https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass'
     - label: 'Tracking repository'
-      icon: 'mdi:github'
+      icon: 'github'
       url: 'https://github.com/fpvilela/css-complete-guide'
 
 - id: js-complete-guide
@@ -17,7 +17,7 @@
     - label: 'Official website'
       url: 'https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced'
     - label: 'Tracking repository'
-      icon: 'mdi:github'
+      icon: 'github'
       url: 'https://github.com/fpvilela/js-complete-guide'
 
 - id: svelte-tutorial
@@ -28,5 +28,5 @@
     - label: 'Tutorial website'
       url: 'https://svelte.dev/tutorial/svelte/welcome-to-svelte'
     - label: 'Tracking repository'
-      icon: 'mdi:github'
+      icon: 'github'
       url: 'https://github.com/fpvilela/svelte-tutorial'

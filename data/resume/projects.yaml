@@ -262,6 +262,7 @@
     - Used the channel as a public portfolio asset to show consistency in learning, communication skills, and hands-on experience with HTML, CSS, and JavaScript fundamentals.
   links:
     - label: YouTube
+      icon: 'youtube'
       url: https://www.youtube.com/@FilipeVilela-r9z
   skills:
     - html
@@ -419,7 +420,7 @@
     - 'Structured the visual layer of the system to support clear navigation and a functional browsing experience for property listings.'
   links:
     - label: Github Repository
-      icon: 'mdi:github'
+      icon: 'github'
       url: 'https://github.com/fpvilela/vilela-properties'
   skills:
     - html

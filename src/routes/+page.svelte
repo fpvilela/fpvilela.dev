@@ -1,7 +1,11 @@
 <script lang="ts">
+	import ExternalLinkIcon from '$lib/components/icons/ExternalLinkIcon.svelte';
+	import GitHubIcon from '$lib/components/icons/GitHubIcon.svelte';
+	import GlobeIcon from '$lib/components/icons/GlobeIcon.svelte';
+	import YouTubeIcon from '$lib/components/icons/YouTubeIcon.svelte';
+	import type { LinkItem } from '$lib/types/resume';
 	import type { PageProps } from './$types';
 
-	type LinkItem = { label: string; href: string };
 	type CourseItem = {
 		title: string;
 		provider: string;
@@ -20,6 +24,16 @@
 	];
 
 	const proofItems = ['Web systems.', 'Workflow automation.', 'API integrations.'];
+
+	function getProjectLinkIcon(link: LinkItem): 'github' | 'youtube' | 'globe' | 'external' {
+		const icon = link.icon;
+
+		if (icon === 'github') return 'github';
+		if (icon === 'youtube') return 'youtube';
+		if (icon === 'globe') return 'globe';
+
+		return 'external';
+	}
 
 	const education = [
 		{
@@ -327,7 +341,20 @@
 							{#if project.links?.length}
 								<div class="link-row">
 									{#each project.links as link}
-										<a href={link.href} target="_blank" rel="noreferrer">{link.label}</a>
+										<a class="project-link" href={link.href} target="_blank" rel="noreferrer">
+											<span class="project-link__icon" aria-hidden="true">
+												{#if getProjectLinkIcon(link) === 'github'}
+													<GitHubIcon size={16} />
+												{:else if getProjectLinkIcon(link) === 'youtube'}
+													<YouTubeIcon size={16} />
+												{:else if getProjectLinkIcon(link) === 'globe'}
+													<GlobeIcon size={16} strokeWidth={2} />
+												{:else}
+													<ExternalLinkIcon size={16} strokeWidth={2} />
+												{/if}
+											</span>
+											<span>{link.label}</span>
+										</a>
 									{/each}
 								</div>
 							{/if}
@@ -823,6 +850,27 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: var(--space-3);
+	}
+
+	.project-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.45rem;
+	}
+
+	.project-link__icon {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 1rem;
+		height: 1rem;
+		flex: 0 0 auto;
+	}
+
+	.project-link__icon :global(svg) {
+		width: 100%;
+		height: 100%;
+		color: currentColor;
 	}
 
 	.link-row__placeholder {
