@@ -1,8 +1,4 @@
 <script lang="ts">
-	import ExternalLinkIcon from '$lib/components/icons/ExternalLinkIcon.svelte';
-	import GitHubIcon from '$lib/components/icons/GitHubIcon.svelte';
-	import GlobeIcon from '$lib/components/icons/GlobeIcon.svelte';
-	import YouTubeIcon from '$lib/components/icons/YouTubeIcon.svelte';
 	import type { LinkItem } from '$lib/types/resume';
 	import type { PageProps } from './$types';
 
@@ -33,6 +29,19 @@
 		if (icon === 'globe') return 'globe';
 
 		return 'external';
+	}
+
+	function getProjectLinkIconClass(link: LinkItem): string {
+		switch (getProjectLinkIcon(link)) {
+			case 'github':
+				return 'icon--tabler--brand-github';
+			case 'youtube':
+				return 'icon--tabler--brand-youtube';
+			case 'globe':
+				return 'icon--tabler--world';
+			default:
+				return 'icon--tabler--external-link';
+		}
 	}
 
 	const education = [
@@ -158,7 +167,11 @@
 
 	const contactActions = [
 		{ label: 'Email', value: 'fpvilela.dev@gmail.com', href: 'mailto:fpvilela.dev@gmail.com' },
-		{ label: 'LinkedIn', value: 'linkedin.com/in/fpvilela', href: 'https://www.linkedin.com/in/fpvilela/' },
+		{
+			label: 'LinkedIn',
+			value: 'linkedin.com/in/fpvilela',
+			href: 'https://www.linkedin.com/in/fpvilela/'
+		},
 		{ label: 'GitHub', value: 'github.com/fpvilela', href: 'https://github.com/fpvilela' }
 	];
 
@@ -219,8 +232,8 @@
 					<p class="eyebrow">Hello, I&apos;m <a href="#about">@fpvilela</a>.</p>
 					<h1>Full-stack Developer.</h1>
 					<p class="lead">
-						I build practical digital solutions across web applications, workflow automation,
-						and API integrations.
+						I build practical digital solutions across web applications, workflow automation, and
+						API integrations.
 					</p>
 					<div class="hero-cta">
 						<a class="button" href="#projects">View projects</a>
@@ -251,12 +264,12 @@
 					<h2>Practical implementation over presentation-first portfolios.</h2>
 					<p>
 						I am a full-stack developer passionate about technology and focused on creating
-						practical digital solutions that solve real operational problems. My work
-						encompasses web systems, workflow automation, and API integrations.
+						practical digital solutions that solve real operational problems. My work encompasses
+						web systems, workflow automation, and API integrations.
 					</p>
 					<p>
-						I like turning requirements into structured implementations, from interface and
-						back-end logic to deployment, documentation, and process automation.
+						I like turning requirements into structured implementations, from interface and back-end
+						logic to deployment, documentation, and process automation.
 					</p>
 				</div>
 
@@ -266,8 +279,8 @@
 						<span class="chip">Workflow automation and integrations</span>
 					</div>
 					<p class="ask-line">
-						<span>Ask me.</span> Product requirements, integration-heavy workflows, internal tools,
-						or production-ready implementation details.
+						<span>Ask me.</span> Product requirements, integration-heavy workflows, internal tools, or
+						production-ready implementation details.
 					</p>
 				</div>
 			</div>
@@ -342,17 +355,10 @@
 								<div class="link-row">
 									{#each project.links as link}
 										<a class="project-link" href={link.href} target="_blank" rel="noreferrer">
-											<span class="project-link__icon" aria-hidden="true">
-												{#if getProjectLinkIcon(link) === 'github'}
-													<GitHubIcon size={16} />
-												{:else if getProjectLinkIcon(link) === 'youtube'}
-													<YouTubeIcon size={16} />
-												{:else if getProjectLinkIcon(link) === 'globe'}
-													<GlobeIcon size={16} strokeWidth={2} />
-												{:else}
-													<ExternalLinkIcon size={16} strokeWidth={2} />
-												{/if}
-											</span>
+											<span
+												class={`project-link__icon ${getProjectLinkIconClass(link)}`}
+												aria-hidden="true"
+											></span>
 											<span>{link.label}</span>
 										</a>
 									{/each}
@@ -545,8 +551,7 @@
 	.entry-location,
 	.legend,
 	.contact-link__label {
-		font-family:
-			'IBM Plex Mono', 'SFMono-Regular', 'Consolas', monospace;
+		font-family: 'IBM Plex Mono', 'SFMono-Regular', 'Consolas', monospace;
 		font-size: 0.875rem;
 		line-height: 1.4;
 		color: var(--color-text-muted);
@@ -690,8 +695,7 @@
 
 	h1,
 	h2 {
-		font-family:
-			'Fraunces', 'Iowan Old Style', 'Times New Roman', serif;
+		font-family: 'Fraunces', 'Iowan Old Style', 'Times New Roman', serif;
 	}
 
 	h1 {
@@ -859,18 +863,10 @@
 	}
 
 	.project-link__icon {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
+		display: inline-block;
 		width: 1rem;
 		height: 1rem;
 		flex: 0 0 auto;
-	}
-
-	.project-link__icon :global(svg) {
-		width: 100%;
-		height: 100%;
-		color: currentColor;
 	}
 
 	.link-row__placeholder {
@@ -942,8 +938,7 @@
 	}
 
 	.chip__level {
-		font-family:
-			'IBM Plex Mono', 'SFMono-Regular', 'Consolas', monospace;
+		font-family: 'IBM Plex Mono', 'SFMono-Regular', 'Consolas', monospace;
 		color: var(--color-accent);
 	}
 

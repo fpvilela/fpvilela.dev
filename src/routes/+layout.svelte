@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '$lib/styles/icons.css';
 	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
@@ -7,6 +8,8 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
+
+{@render children()}
 
 <style>
 	:global(:root) {
@@ -37,8 +40,7 @@
 		--motion-base: 220ms;
 		--motion-slow: 360ms;
 		--ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
-		font-family:
-			'Manrope', 'Inter', 'Segoe UI', sans-serif;
+		font-family: 'Manrope', 'Inter', 'Segoe UI', sans-serif;
 		color: var(--color-text);
 		background: var(--color-bg);
 		scroll-behavior: smooth;
@@ -51,11 +53,14 @@
 	:global(body) {
 		margin: 0;
 		min-width: 320px;
-		background:
-			radial-gradient(circle at top, rgba(251, 248, 242, 0.92), rgba(245, 241, 232, 0.96) 38%, var(--color-bg) 72%);
+		background: radial-gradient(
+			circle at top,
+			rgba(251, 248, 242, 0.92),
+			rgba(245, 241, 232, 0.96) 38%,
+			var(--color-bg) 72%
+		);
 		color: var(--color-text);
-		font-family:
-			'Manrope', 'Inter', 'Segoe UI', sans-serif;
+		font-family: 'Manrope', 'Inter', 'Segoe UI', sans-serif;
 		line-height: 1.6;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
@@ -90,5 +95,3 @@
 		background: rgba(31, 106, 94, 0.18);
 	}
 </style>
-
-{@render children()}
