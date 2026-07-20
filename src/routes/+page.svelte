@@ -111,16 +111,6 @@
 		{ label: 'English', value: 'professional' }
 	];
 
-	const contactActions = [
-		{ label: 'Email', value: 'fpvilela.dev@gmail.com', href: 'mailto:fpvilela.dev@gmail.com' },
-		{
-			label: 'LinkedIn',
-			value: 'linkedin.com/in/fpvilela',
-			href: 'https://www.linkedin.com/in/fpvilela/'
-		},
-		{ label: 'GitHub', value: 'github.com/fpvilela', href: 'https://github.com/fpvilela' }
-	];
-
 	let mobileNavOpen = $state(false);
 </script>
 
@@ -428,7 +418,7 @@
 					</div>
 
 					<div class="contact-actions">
-						{#each contactActions as item}
+						{#each data.contactActions as item}
 							<a class="contact-link" href={item.href} target="_blank" rel="noreferrer">
 								<span class="contact-link__label">{item.label}</span>
 								<span class="contact-link__value">{item.value}</span>

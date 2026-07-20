@@ -70,6 +70,17 @@ export type CourseRecord = {
 	}>;
 };
 
+export type ContactRecord = {
+	fullname: string;
+	email: string;
+	phone?: string;
+	site?: string | null;
+	social?: Array<{
+		name: string;
+		url: string;
+	}>;
+};
+
 export type ResumeSourceData = {
 	experiences: ResumeExperienceRecord[];
 	companies: CompanyRecord[];
@@ -78,4 +89,5 @@ export type ResumeSourceData = {
 	skills: SkillRecord[];
 	education: EducationRecord[];
 	courses: CourseRecord[];
+	contact: ContactRecord;
 };

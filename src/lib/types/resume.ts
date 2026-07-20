@@ -39,3 +39,9 @@ export type CourseItem = {
 	note: string;
 	links: LinkItem[];
 };
+
+export type ContactActionItem = {
+	label: string;
+	value: string;
+	href: string;
+};
