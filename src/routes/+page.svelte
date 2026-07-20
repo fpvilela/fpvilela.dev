@@ -2,12 +2,6 @@
 	import type { LinkItem } from '$lib/types/resume';
 	import type { PageProps } from './$types';
 
-	type CourseItem = {
-		title: string;
-		provider: string;
-		note: string;
-		links: LinkItem[];
-	};
 	type SkillGroup = { title: string; items: { label: string; level: string }[] };
 
 	let { data }: PageProps = $props();
@@ -43,42 +37,6 @@
 				return 'icon--tabler--external-link';
 		}
 	}
-
-	const courses: CourseItem[] = [
-		{
-			title: 'CSS - The Complete Guide',
-			provider: 'Udemy',
-			note: 'Completed all coursework credits.',
-			links: [
-				{
-					label: 'Official website',
-					href: 'https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass'
-				},
-				{ label: 'Tracking repository', href: 'https://github.com/fpvilela/css-complete-guide' }
-			]
-		},
-		{
-			title: 'JavaScript - The Complete Guide (Beginner + Advanced)',
-			provider: 'Udemy',
-			note: 'Completed all coursework credits.',
-			links: [
-				{
-					label: 'Official website',
-					href: 'https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced'
-				},
-				{ label: 'Tracking repository', href: 'https://github.com/fpvilela/js-complete-guide' }
-			]
-		},
-		{
-			title: 'Svelte Tutorial',
-			provider: 'Svelte',
-			note: 'Completed.',
-			links: [
-				{ label: 'Tutorial website', href: 'https://svelte.dev/tutorial/svelte/welcome-to-svelte' },
-				{ label: 'Tracking repository', href: 'https://github.com/fpvilela/svelte-tutorial' }
-			]
-		}
-	];
 
 	const skillLegend = [
 		{ marker: '○', label: 'Beginner' },
@@ -397,7 +355,7 @@
 					<div>
 						<h3 class="subheading">Courses and Certificates</h3>
 						<div class="stack-list">
-							{#each courses as course}
+							{#each data.courses as course}
 								<article class="light-entry">
 									<p class="meta-label">{course.provider}</p>
 									<h4>{course.title}</h4>

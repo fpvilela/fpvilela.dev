@@ -30,3 +30,12 @@ export type EducationItem = {
 	note: string;
 	location: string;
 };
+
+export type CourseItem = {
+	id: string;
+	title: string;
+	provider: string;
+	description: string;
+	note: string;
+	links: LinkItem[];
+};

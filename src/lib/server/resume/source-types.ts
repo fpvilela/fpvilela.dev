@@ -57,6 +57,19 @@ export type EducationRecord = {
 	graduated: string;
 };
 
+export type CourseRecord = {
+	id: string;
+	title: string;
+	provider: string;
+	description: string;
+	note: string;
+	links?: Array<{
+		label: string;
+		icon?: string;
+		url: string;
+	}>;
+};
+
 export type ResumeSourceData = {
 	experiences: ResumeExperienceRecord[];
 	companies: CompanyRecord[];
@@ -64,4 +77,5 @@ export type ResumeSourceData = {
 	projects: ProjectRecord[];
 	skills: SkillRecord[];
 	education: EducationRecord[];
+	courses: CourseRecord[];
 };
