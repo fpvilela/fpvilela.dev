@@ -81,6 +81,11 @@ export type ContactRecord = {
 	}>;
 };
 
+export type LanguageRecord = {
+	lang: string;
+	proficiency: string;
+};
+
 export type ResumeSourceData = {
 	experiences: ResumeExperienceRecord[];
 	companies: CompanyRecord[];
@@ -90,4 +95,5 @@ export type ResumeSourceData = {
 	education: EducationRecord[];
 	courses: CourseRecord[];
 	contact: ContactRecord;
+	languages: LanguageRecord[];
 };

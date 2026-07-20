@@ -106,11 +106,6 @@
 		}
 	];
 
-	const languages = [
-		{ label: 'Portuguese', value: 'native' },
-		{ label: 'English', value: 'professional' }
-	];
-
 	let mobileNavOpen = $state(false);
 </script>
 
@@ -396,7 +391,7 @@
 					<section class="skills-group skills-group--languages">
 						<h3>Languages</h3>
 						<div class="language-list">
-							{#each languages as item}
+							{#each data.languages as item}
 								<p><span>{item.label}</span><span>{item.value}</span></p>
 							{/each}
 						</div>

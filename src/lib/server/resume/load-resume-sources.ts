@@ -7,6 +7,7 @@ import type {
 	ContactRecord,
 	CourseRecord,
 	EducationRecord,
+	LanguageRecord,
 	ProjectRecord,
 	ResumeExperienceRecord,
 	ResumeSourceData,
@@ -29,6 +30,7 @@ export function loadResumeSources(): ResumeSourceData {
 		skills: readYamlFile<SkillRecord[]>('skills.yaml'),
 		education: readYamlFile<EducationRecord[]>('education.yaml'),
 		courses: readYamlFile<CourseRecord[]>('courses.yaml'),
-		contact: readYamlFile<ContactRecord>('contact.yaml')
+		contact: readYamlFile<ContactRecord>('contact.yaml'),
+		languages: readYamlFile<LanguageRecord[]>('languages.yaml')
 	};
 }

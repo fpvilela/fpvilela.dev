@@ -45,3 +45,8 @@ export type ContactActionItem = {
 	value: string;
 	href: string;
 };
+
+export type LanguageItem = {
+	label: string;
+	value: string;
+};
