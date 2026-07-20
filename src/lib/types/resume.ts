@@ -23,7 +23,7 @@ export type ProjectItem = {
 
 export type EducationItem = {
 	id: string;
-	year: string;
+	graduated: string;
 	institution: string;
 	institutionHref?: string;
 	degree: string;

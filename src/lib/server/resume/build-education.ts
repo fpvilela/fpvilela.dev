@@ -9,7 +9,7 @@ function formatDegree(degree: string, title: string): string {
 export function getEducation({ education }: ResumeSourceData): EducationItem[] {
 	return education.map((entry) => ({
 		id: entry.id,
-		year: entry.year,
+		graduated: entry.graduated,
 		institution: entry.institution,
 		institutionHref: entry.institutionHref,
 		degree: formatDegree(entry.degree, entry.title),

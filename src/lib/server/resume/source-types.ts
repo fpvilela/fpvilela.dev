@@ -54,7 +54,7 @@ export type EducationRecord = {
 	institutionHref?: string;
 	location: string;
 	note: string;
-	year: string;
+	graduated: string;
 };
 
 export type ResumeSourceData = {

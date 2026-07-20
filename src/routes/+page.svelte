@@ -376,7 +376,7 @@
 						<div class="stack-list">
 							{#each data.education as item}
 								<article class="light-entry">
-									<p class="meta-label">{item.year}</p>
+									<p class="meta-label">{item.graduated}</p>
 									<h4>
 										{#if item.institutionHref}
 											<a href={item.institutionHref} target="_blank" rel="noreferrer">
