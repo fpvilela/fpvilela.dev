@@ -46,10 +46,22 @@ export type SkillRecord = {
 	label: string;
 };
 
+export type EducationRecord = {
+	id: string;
+	degree: string;
+	title: string;
+	institution: string;
+	institutionHref?: string;
+	location: string;
+	note: string;
+	year: string;
+};
+
 export type ResumeSourceData = {
 	experiences: ResumeExperienceRecord[];
 	companies: CompanyRecord[];
 	roles: RoleRecord[];
 	projects: ProjectRecord[];
 	skills: SkillRecord[];
+	education: EducationRecord[];
 };

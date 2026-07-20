@@ -20,3 +20,13 @@ export type ProjectItem = {
 	links?: LinkItem[];
 	hasMoreContent?: boolean;
 };
+
+export type EducationItem = {
+	id: string;
+	year: string;
+	institution: string;
+	institutionHref?: string;
+	degree: string;
+	note: string;
+	location: string;
+};

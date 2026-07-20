@@ -4,6 +4,7 @@ import { parse } from 'yaml';
 
 import type {
 	CompanyRecord,
+	EducationRecord,
 	ProjectRecord,
 	ResumeExperienceRecord,
 	ResumeSourceData,
@@ -23,6 +24,7 @@ export function loadResumeSources(): ResumeSourceData {
 		companies: readYamlFile<CompanyRecord[]>('companies.yaml'),
 		roles: readYamlFile<RoleRecord[]>('roles.yaml'),
 		projects: readYamlFile<ProjectRecord[]>('projects.yaml'),
-		skills: readYamlFile<SkillRecord[]>('skills.yaml')
+		skills: readYamlFile<SkillRecord[]>('skills.yaml'),
+		education: readYamlFile<EducationRecord[]>('education.yaml')
 	};
 }

@@ -44,18 +44,6 @@
 		}
 	}
 
-	const education = [
-		{
-			year: '2021',
-			institution:
-				'Planalto University Center of the Federal District (Centro Universitario Planalto do Distrito Federal - UNIPLAN)',
-			institutionHref: 'https://www.uniplandf.edu.br/',
-			degree: "Bachelor's in Systems Analysis and Development",
-			note: 'Formal background in systems analysis, development, and implementation fundamentals.',
-			location: 'Brasilia, DF, Brazil'
-		}
-	];
-
 	const courses: CourseItem[] = [
 		{
 			title: 'CSS - The Complete Guide',
@@ -386,13 +374,17 @@
 					<div>
 						<h3 class="subheading">Education</h3>
 						<div class="stack-list">
-							{#each education as item}
+							{#each data.education as item}
 								<article class="light-entry">
 									<p class="meta-label">{item.year}</p>
 									<h4>
-										<a href={item.institutionHref} target="_blank" rel="noreferrer">
+										{#if item.institutionHref}
+											<a href={item.institutionHref} target="_blank" rel="noreferrer">
+												{item.institution}
+											</a>
+										{:else}
 											{item.institution}
-										</a>
+										{/if}
 									</h4>
 									<p>{item.degree}</p>
 									<p>{item.note}</p>
